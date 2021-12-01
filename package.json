@@ -13,7 +13,7 @@
   "engines": {
     "node": ">=14"
   },
-  "name": "abc-panel",
+  "name": "grafana-abc-panel",
   "scripts": {
     "build": "grafana-toolkit plugin:build --coverage",
     "dev": "grafana-toolkit plugin:dev",
