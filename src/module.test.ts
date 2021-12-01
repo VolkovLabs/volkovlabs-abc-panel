@@ -17,9 +17,11 @@ describe('plugin', () => {
       addFieldNamePicker: jest.fn().mockImplementation(() => builder),
     };
 
+    plugin['registerOptionEditors'](builder);
+
     /**
      * Inputs
      */
-    plugin['registerOptionEditors'](builder);
+    expect(builder.addFieldNamePicker).toHaveBeenCalled();
   });
 });
