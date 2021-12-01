@@ -30,7 +30,7 @@ describe('Panel', () => {
       const data = {
         series: [
           toDataFrame({
-            name: 'JPEG',
+            name: 'data',
             refId: 'A',
             fields: [
               {
