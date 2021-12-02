@@ -17,6 +17,9 @@ describe('plugin', () => {
       addFieldNamePicker: jest.fn().mockImplementation(() => builder),
     };
 
+    /**
+     * Supplier
+     */
     plugin['optionsSupplier'](builder);
 
     /**

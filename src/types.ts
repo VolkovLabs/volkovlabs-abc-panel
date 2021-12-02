@@ -5,7 +5,7 @@ export interface PanelOptions {
   /**
    * Field name with data
    *
-   * @type string
+   * @type {string}
    */
   name: string;
 }
