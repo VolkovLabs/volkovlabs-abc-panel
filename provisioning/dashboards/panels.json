@@ -1,17 +1,18 @@
 {
   "__inputs": [],
+  "__elements": [],
   "__requires": [
-    {
-      "type": "panel",
-      "id": "abc-panel",
-      "name": "Abc",
-      "version": "1.0.0"
-    },
     {
       "type": "grafana",
       "id": "grafana",
       "name": "Grafana",
-      "version": "8.2.5"
+      "version": "8.3.2"
+    },
+    {
+      "type": "panel",
+      "id": "volkovlabs-abc-panel",
+      "name": "Abc",
+      "version": "1.2.0"
     }
   ],
   "annotations": {
@@ -35,14 +36,12 @@
   },
   "editable": true,
   "fiscalYearStartMonth": 0,
-  "gnetId": null,
   "graphTooltip": 0,
   "id": null,
   "links": [],
   "liveNow": false,
   "panels": [
     {
-      "datasource": null,
       "gridPos": {
         "h": 14,
         "w": 10,
@@ -75,11 +74,11 @@
         }
       ],
       "title": "Test",
-      "type": "abc-panel"
+      "type": "volkovlabs-abc-panel"
     }
   ],
   "refresh": "",
-  "schemaVersion": 32,
+  "schemaVersion": 33,
   "style": "dark",
   "tags": [],
   "templating": {
@@ -93,5 +92,6 @@
   "timezone": "",
   "title": "Panels",
   "uid": "O4tc_E6Gz",
-  "version": 1
+  "version": 1,
+  "weekStart": ""
 }
