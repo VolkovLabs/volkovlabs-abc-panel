@@ -1,7 +1,7 @@
 import { shallow } from 'enzyme';
 import React from 'react';
 import { toDataFrame } from '@grafana/data';
-import { AbcPanel } from './abc-panel';
+import { AbcPanel } from './AbcPanel';
 
 /**
  * Panel
