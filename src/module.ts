@@ -1,5 +1,5 @@
 import { PanelPlugin } from '@grafana/data';
-import { AbcPanel } from './abc-panel';
+import { AbcPanel } from './components';
 import { PanelOptions } from './types';
 
 /**

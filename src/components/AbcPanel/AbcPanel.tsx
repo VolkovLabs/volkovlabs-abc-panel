@@ -1,8 +1,8 @@
 import React from 'react';
 import { css, cx } from '@emotion/css';
 import { PanelProps } from '@grafana/data';
-import { getStyles } from '../styles';
-import { PanelOptions } from '../types';
+import { getStyles } from '../../styles';
+import { PanelOptions } from '../../types';
 
 /**
  * Properties
