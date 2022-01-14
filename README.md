@@ -27,7 +27,7 @@ yarn install
 yarn build
 ```
 
-3. Sign the plugins
+3. Sign the plugins if required
 
 ```
 export GRAFANA_API_KEY=erXXXX==
