@@ -1,11 +1,13 @@
 # Change Log
 
-## 1.3.0 (IN PROGRESS)
+## 1.3.0 (2022-01-18)
 
 ### Features / Enhancements
 
 - Update Components naming (#4)
 - Update CI workflow to use CodeCov@v2 and add LGTM badge
+- Add Development mode and minor updates (#6)
+- Rebuild using 8.3.4 (#5)
 
 ## 1.2.0 (2021-12-12)
 
