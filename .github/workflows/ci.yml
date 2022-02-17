@@ -54,7 +54,7 @@ jobs:
       - name: Package plugin
         id: package-plugin
         run: |
-          zip -r dist
+          zip -r dist.zip dist
 
       - name: Lint plugin
         continue-on-error: true
