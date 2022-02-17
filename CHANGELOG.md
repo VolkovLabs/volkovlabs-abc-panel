@@ -6,6 +6,7 @@
 
 - Rebuild using 8.3.6 (#8)
 - Rebuild using 8.4.0 and use PluginCheck v2 (#9)
+- Add Plugin Validator to CI (#10)
 
 ## 1.3.0 (2022-01-18)
 
