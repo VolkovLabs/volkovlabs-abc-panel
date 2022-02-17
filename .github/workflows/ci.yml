@@ -18,6 +18,11 @@ jobs:
         with:
           node-version: "16.x"
 
+      - name: Setup Go environment
+        uses: actions/setup-go@v2
+        with:
+          go-version: "1.15"
+
       - name: Get yarn cache directory path
         id: yarn-cache-dir-path
         run: echo "::set-output name=dir::$(yarn cache dir)"
@@ -45,6 +50,20 @@ jobs:
 
       - name: Build and test frontend
         run: yarn build
+
+      - name: Package plugin
+        id: package-plugin
+        run: |
+          zip -r dist
+
+      - name: Lint plugin
+        continue-on-error: true
+        run: |
+          git clone https://github.com/grafana/plugin-validator
+          pushd ./plugin-validator/pkg/cmd/plugincheck2
+          go install
+          popd
+          plugincheck2 -config config/verbose-json.yaml dist.zip
 
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2
