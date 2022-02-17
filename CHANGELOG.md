@@ -1,10 +1,11 @@
 # Change Log
 
-## 1.4.0 (IN PROGRESS)
+## 1.4.0 (2022-02-17)
 
 ### Features / Enhancements
 
-- Rebuild using 8.3.6
+- Rebuild using 8.3.6 (#7)
+- Rebuild using 8.4.0 (#8)
 
 ## 1.3.0 (2022-01-18)
 
