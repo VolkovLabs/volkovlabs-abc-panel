@@ -1,5 +1,11 @@
 # Change Log
 
+## 1.6.0 (IN PROGRESS)
+
+### Features / Enhancements
+
+- Rebuild using 9.0.0-beta3
+
 ## 1.5.0 (2022-05-01)
 
 ### Features / Enhancements
