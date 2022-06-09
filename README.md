@@ -11,7 +11,8 @@ The ABC Panel is a template to create a new panel plugin for Grafana.
 
 ### Requirements
 
-Grafana 9.0 is required.
+- Grafana 8.5+, Grafana 9.0+ is required for version 2.X.
+- Grafana 8.0+ is required for version 1.X.
 
 ## Getting Started
 
