@@ -1,10 +1,11 @@
 # Change Log
 
-## 2.1.0 (IN PROGRESS)
+## 2.1.0 (2022-09-22)
 
 ### Features / Enhancements
 
 - Rebuild using 9.1.6 (#16)
+- Add Compatibility Check Workflow (#17)
 
 ## 2.0.0 (2022-06-16)
 
