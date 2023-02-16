@@ -87,4 +87,11 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-artifact@v3
         with:
-          path: ${{ steps.metadata.outputs.archive }}*
+          name: ${{ steps.metadata.outputs.archive }}
+          path: ${{ steps.metadata.outputs.archive }}
+
+      - name: Upload artifact checksum
+        uses: actions/upload-artifact@v3
+        with:
+          name: ${{ steps.metadata.outputs.archive-checksum }}
+          path: ${{ steps.metadata.outputs.archive-checksum }}
