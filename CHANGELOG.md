@@ -8,6 +8,7 @@
 - Update Workflows (#19)
 - Add Dashboard image (#20)
 - Update Readme and Changelog (#21)
+- Update Release workflow (#22)
 
 ## 2.1.0 (2022-09-22)
 
