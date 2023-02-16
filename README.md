@@ -7,9 +7,9 @@
 [![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-abc-panel/branch/main/graph/badge.svg?token=0m6f0ktUar)](https://codecov.io/gh/VolkovLabs/volkovlabs-abc-panel)
 [![CodeQL](https://github.com/VolkovLabs/volkovlabs-abc-panel/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/VolkovLabs/volkovlabs-abc-panel/actions/workflows/codeql-analysis.yml)
 
-We created many Grafana panels to this moment. To make the creation process efficient, starting with a well-constructed template is always easier.
+The Abc panel is a template we created to streamline our development process and gladly share it with the Grafana community.
 
-The ABC panel is a template we created to streamline our development process and gladly share it with the Grafana community.
+We created many Grafana panels to this moment. To make the creation process efficient, starting with a well-constructed template is always easier.
 
 Generate an application template with [https://github.com/VolkovLabs/volkovlabs-abc-panel/generate](https://github.com/VolkovLabs/volkovlabs-abc-panel/generate).
 
@@ -51,7 +51,7 @@ yarn run start
 - Provides unit test configuration.
 - Based on the latest version of Grafana.
 - Includes GitHub Actions for CI and Release.
-- Includes the Static Data Source to emulate any data.
+- Includes Static Data Source to emulate any data.
 
 ## Feedback
 
