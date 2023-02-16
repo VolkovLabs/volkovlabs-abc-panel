@@ -9,6 +9,7 @@
 - Add Dashboard image (#20)
 - Update Readme and Changelog (#21)
 - Update Release workflow (#22)
+- Add Levitate Check (#23)
 
 ## 2.1.0 (2022-09-22)
 
