@@ -74,7 +74,7 @@ jobs:
           directory: ./coverage/
           files: ./coverage/lcov.info
           env_vars: OS,PYTHON
-          fail_ci_if_error: true
+          fail_ci_if_error: false
 
       - name: Upload artifact
         uses: actions/upload-artifact@v3
