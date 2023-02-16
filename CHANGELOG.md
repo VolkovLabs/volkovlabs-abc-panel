@@ -5,6 +5,9 @@
 ### Features / Enhancements
 
 - Rebuild using 9.3.6 (#18)
+- Update Workflows (#19)
+- Add Dashboard image (#20)
+- Update Readme and Changelog (#21)
 
 ## 2.1.0 (2022-09-22)
 
