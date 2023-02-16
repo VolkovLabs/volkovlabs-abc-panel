@@ -26,7 +26,12 @@
       "large": "img/logo.svg",
       "small": "img/logo.svg"
     },
-    "screenshots": [],
+    "screenshots": [
+      {
+        "name": "Panel",
+        "path": "img/dashboard.png"
+      }
+    ],
     "updated": "%TODAY%",
     "version": "%VERSION%"
   },
