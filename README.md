@@ -9,7 +9,7 @@ We created many Grafana panels to this moment. To make the creation process effi
 
 The ABC panel is a template we created to streamline our development process and gladly share it with the Grafana community.
 
-To generate a panel template [https://github.com/VolkovLabs/volkovlabs-abc-panel/generate](https://github.com/VolkovLabs/volkovlabs-abc-panel/generate).
+Generate an application template with [https://github.com/VolkovLabs/volkovlabs-abc-panel/generate](https://github.com/VolkovLabs/volkovlabs-abc-panel/generate).
 
 ## Requirements
 
