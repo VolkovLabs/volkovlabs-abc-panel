@@ -51,7 +51,7 @@ yarn run start
 - Provides unit test configuration.
 - Based on the latest version of Grafana.
 - Includes GitHub Actions for CI and Release.
-- Includes the Static Data Source to emulate any data.
+- Includes Static Data Source to emulate any data.
 
 ## Feedback
 
