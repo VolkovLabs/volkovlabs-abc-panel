@@ -1,5 +1,11 @@
 # Change Log
 
+## 2.3.0 (IN PROGRESS)
+
+### Features / Enhancements
+
+- Update CI and Release Workflows to use setup-node cache (#24)
+
 ## 2.2.0 (2023-02-16)
 
 ### Features / Enhancements
