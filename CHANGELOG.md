@@ -5,6 +5,7 @@
 ### Features / Enhancements
 
 - Update CI and Release Workflows to use setup-node cache (#24)
+- Rebuild using 9.5.2 (#25)
 
 ## 2.2.0 (2023-02-16)
 
