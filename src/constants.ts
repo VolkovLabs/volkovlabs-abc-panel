@@ -4,6 +4,6 @@
 
 export const TestIds = {
   panel: {
-    root: 'data-test-id panel',
+    root: 'data-testid panel',
   },
 };
