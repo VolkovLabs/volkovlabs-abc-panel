@@ -1,6 +1,7 @@
 import React from 'react';
 import { css, cx } from '@emotion/css';
 import { PanelProps } from '@grafana/data';
+import { TestIds } from '../../constants';
 import { getStyles } from '../../styles';
 import { PanelOptions } from '../../types';
 
@@ -28,6 +29,7 @@ export const AbcPanel: React.FC<Props> = ({ options, data, width, height }) => {
    */
   return (
     <div
+      data-testid={TestIds.panel.root}
       className={cx(
         styles.wrapper,
         css`
