@@ -11,9 +11,9 @@
 
 The Abc panel is a template we created to streamline our development process and gladly share it with the Grafana community.
 
-We created many Grafana panels to this moment. To make the creation process efficient, starting with a well-constructed template is always easier.
+To make the creation process efficient, starting with a well-constructed template is always easier.
 
-Generate an application template with [https://github.com/VolkovLabs/volkovlabs-abc-panel/generate](https://github.com/VolkovLabs/volkovlabs-abc-panel/generate).
+Generate a template with [https://github.com/VolkovLabs/volkovlabs-abc-panel/generate](https://github.com/VolkovLabs/volkovlabs-abc-panel/generate).
 
 ## Requirements
 
@@ -47,7 +47,7 @@ yarn sign
 yarn run start
 ```
 
-## Features
+## Highlights
 
 - Use `docker-compose` to start the development environment with provisioned data source and a dashboard.
 - Provides unit test configuration.
