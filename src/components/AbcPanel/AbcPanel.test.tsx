@@ -1,53 +1,72 @@
-import { shallow } from 'enzyme';
 import React from 'react';
 import { toDataFrame } from '@grafana/data';
+import { render, screen } from '@testing-library/react';
+import { TestIds } from '../../constants';
 import { AbcPanel } from './AbcPanel';
+
+/**
+ * Test Scenario
+ */
+enum Scenario {
+  NoField = 'noField',
+  SimpleField = 'simpleField',
+}
 
 /**
  * Panel
  */
 describe('Panel', () => {
-  it('Should find component', async () => {
-    const getComponent = ({ options = { name: 'data' }, ...restProps }: any) => {
-      const data = {
-        series: [
-          toDataFrame({
-            name: 'data',
-            fields: [],
-          }),
-        ],
-      };
-      return <AbcPanel data={data} {...restProps} options={options} />;
-    };
+  /**
+   * Get Test Data
+   */
+  const getTestData = (scenario: Scenario) => {
+    switch (scenario) {
+      case Scenario.SimpleField: {
+        return {
+          series: [
+            toDataFrame({
+              name: 'data',
+              refId: 'A',
+              fields: [
+                {
+                  name: 'data',
+                  type: 'string',
+                  values: ['Hello World!'],
+                },
+              ],
+            }),
+          ],
+        };
+      }
+      default: {
+        return {
+          series: [
+            toDataFrame({
+              name: 'data',
+              fields: [],
+            }),
+          ],
+        };
+      }
+    }
+  };
 
-    const wrapper = shallow(getComponent({}));
-    const div = wrapper.find('div');
-    expect(div.exists()).toBeTruthy();
+  /**
+   * Get Tested Component
+   */
+  const getComponent = ({ options = { name: 'data' }, ...restProps }: any, scenario: Scenario = Scenario.NoField) => {
+    return <AbcPanel data={getTestData(scenario)} {...restProps} options={options} />;
+  };
+
+  it('Should find component', async () => {
+    render(getComponent({}));
+    expect(screen.getByTestId(TestIds.panel.root)).toBeInTheDocument();
   });
 
   it('Should get the latest value', async () => {
-    const getComponent = ({ options = { name: 'data' }, ...restProps }: any) => {
-      const data = {
-        series: [
-          toDataFrame({
-            name: 'data',
-            refId: 'A',
-            fields: [
-              {
-                name: 'data',
-                type: 'string',
-                values: ['Hello World!'],
-              },
-            ],
-          }),
-        ],
-      };
-      return <AbcPanel data={data} {...restProps} options={options} />;
-    };
+    render(getComponent({}, Scenario.SimpleField));
 
-    const wrapper = shallow(getComponent({}));
-    const div = wrapper.find('div');
-    expect(div.exists()).toBeTruthy();
-    expect(div.text()).toEqual('Hello World!');
+    expect(screen.getByTestId(TestIds.panel.root)).toBeInTheDocument();
+    expect(screen.getByText('Hello World!')).toBeInTheDocument();
   });
 });
