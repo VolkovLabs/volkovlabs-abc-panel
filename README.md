@@ -2,8 +2,9 @@
 
 ![Dashboard](https://github.com/VolkovLabs/volkovlabs-abc-panel/raw/main/src/img/dashboard.png)
 
-[![Grafana 9](https://img.shields.io/badge/Grafana-9.3.6-orange)](https://www.grafana.com)
+[![Grafana 9](https://img.shields.io/badge/Grafana-9.5.2-orange)](https://www.grafana.com)
 ![CI](https://github.com/volkovlabs/volkovlabs-abc-panel/workflows/CI/badge.svg)
+![E2E](https://github.com/volkovlabs/volkovlabs-abc-panel/workflows/E2E/badge.svg)
 [![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-abc-panel/branch/main/graph/badge.svg?token=0m6f0ktUar)](https://codecov.io/gh/VolkovLabs/volkovlabs-abc-panel)
 [![CodeQL](https://github.com/VolkovLabs/volkovlabs-abc-panel/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/VolkovLabs/volkovlabs-abc-panel/actions/workflows/codeql-analysis.yml)
 
@@ -11,9 +12,9 @@
 
 The Abc panel is a template we created to streamline our development process and gladly share it with the Grafana community.
 
-We created many Grafana panels to this moment. To make the creation process efficient, starting with a well-constructed template is always easier.
+To make the creation process efficient, starting with a well-constructed template is always easier.
 
-Generate an application template with [https://github.com/VolkovLabs/volkovlabs-abc-panel/generate](https://github.com/VolkovLabs/volkovlabs-abc-panel/generate).
+Generate a template with [https://github.com/VolkovLabs/volkovlabs-abc-panel/generate](https://github.com/VolkovLabs/volkovlabs-abc-panel/generate).
 
 ## Requirements
 
@@ -47,7 +48,7 @@ yarn sign
 yarn run start
 ```
 
-## Features
+## Highlights
 
 - Use `docker-compose` to start the development environment with provisioned data source and a dashboard.
 - Provides unit test configuration.
