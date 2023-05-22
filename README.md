@@ -51,18 +51,14 @@ yarn run start
 ## Highlights
 
 - Use `docker-compose` to start the development environment with provisioned data source and a dashboard.
-- Provides unit test configuration.
+- Provides unit and E2E test configuration.
 - Based on the latest version of Grafana.
-- Includes GitHub Actions for CI and Release.
+- Includes GitHub Actions for CI, E2E and Release.
 - Includes Static Data Source to emulate any data.
 
-## Feedback
+## Support
 
-We love to hear from you. There are various ways to get in touch with us:
-
-- Ask a question, request a new feature, and file a bug with [GitHub issues](https://github.com/volkovlabs/volkovlabs-abc-panel/issues/new/choose).
-- Sponsor our open-source plugins for Grafana with [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
-- Star the repository to show your support.
+We provide GitHub Discussions and Premium tier support for the development plugins available via [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
 
 ## License
 

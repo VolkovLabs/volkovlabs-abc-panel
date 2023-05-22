@@ -1,6 +1,6 @@
 # Change Log
 
-## 2.3.0 (IN PROGRESS)
+## 2.3.0 (2023-05-21)
 
 ### Features / Enhancements
 
@@ -8,6 +8,7 @@
 - Rebuild using 9.5.2 (#25)
 - Add testing-library/react (#26)
 - Add E2E Cypress testing (#27)
+- Update plugin signing and README (#28)
 
 ## 2.2.0 (2023-02-16)
 

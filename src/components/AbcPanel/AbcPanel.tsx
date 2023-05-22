@@ -2,7 +2,7 @@ import React from 'react';
 import { css, cx } from '@emotion/css';
 import { PanelProps } from '@grafana/data';
 import { TestIds } from '../../constants';
-import { getStyles } from '../../styles';
+import { Styles } from '../../styles';
 import { PanelOptions } from '../../types';
 
 /**
@@ -14,7 +14,7 @@ interface Props extends PanelProps<PanelOptions> {}
  * Panel
  */
 export const AbcPanel: React.FC<Props> = ({ options, data, width, height }) => {
-  const styles = getStyles();
+  const styles = Styles();
 
   /**
    * Get Field
