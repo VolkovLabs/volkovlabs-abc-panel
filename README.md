@@ -26,26 +26,26 @@ Generate a template with [https://github.com/VolkovLabs/volkovlabs-abc-panel/gen
 1. Install packages
 
 ```bash
-yarn install
+npm install
 ```
 
 2. Build the plugin
 
 ```bash
-yarn build
+npm run build
 ```
 
 3. Sign the plugins if required
 
 ```bash
 export GRAFANA_API_KEY=erfdfsgfs==
-yarn sign
+npm run sign
 ```
 
 4. Start the Docker container
 
 ```bash
-yarn run start
+npm run start
 ```
 
 ## Highlights
