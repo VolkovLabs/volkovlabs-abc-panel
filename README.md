@@ -2,10 +2,10 @@
 
 ![Dashboard](https://github.com/VolkovLabs/volkovlabs-abc-panel/raw/main/src/img/dashboard.png)
 
-[![Grafana 9](https://img.shields.io/badge/Grafana-9.5.2-orange)](https://www.grafana.com)
+![Grafana 9](https://img.shields.io/badge/Grafana-9.5.2-orange)
 ![CI](https://github.com/volkovlabs/volkovlabs-abc-panel/workflows/CI/badge.svg)
 ![E2E](https://github.com/volkovlabs/volkovlabs-abc-panel/workflows/E2E/badge.svg)
-[![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-abc-panel/branch/main/graph/badge.svg?token=0m6f0ktUar)](https://codecov.io/gh/VolkovLabs/volkovlabs-abc-panel)
+[![codecov](https://codecov.io/gh/VolkovLabs/volkovlabs-abc-panel/branch/main/graph/badge.svg)](https://codecov.io/gh/VolkovLabs/volkovlabs-abc-panel)
 [![CodeQL](https://github.com/VolkovLabs/volkovlabs-abc-panel/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/VolkovLabs/volkovlabs-abc-panel/actions/workflows/codeql-analysis.yml)
 
 ## Introduction
@@ -52,7 +52,7 @@ npm run start
 
 - Use `docker-compose` to start the development environment with provisioned data source and a dashboard.
 - Provides unit and E2E test configuration.
-- Based on the latest version of Grafana.
+- Based on the latest version of Grafana and Grafana Tools.
 - Includes GitHub Actions for CI, E2E and Release.
 - Includes Static Data Source to emulate any data.
 

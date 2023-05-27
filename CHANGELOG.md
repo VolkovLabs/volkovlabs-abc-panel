@@ -1,10 +1,11 @@
 # Change Log
 
-## 3.0.0 (IN PROGRESS)
+## 2.4.0 (2023-05-27)
 
 ### Features / Enhancements
 
 - Migrate to Plugin Tools 1.5.0 (#29)
+- Update to Node 18 (#30)
 
 ## 2.3.0 (2023-05-21)
 
