@@ -4,7 +4,7 @@
 
 ### Features / Enhancements
 
-- Update package.json (#31)
+- Update package.json and workflows (#31)
 
 ## 2.4.0 (2023-05-27)
 
