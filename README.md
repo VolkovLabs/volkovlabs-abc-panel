@@ -18,8 +18,8 @@ Generate a template with [https://github.com/VolkovLabs/volkovlabs-abc-panel/gen
 
 ## Requirements
 
-- **Grafana 8.5+, Grafana 9.0+** is required for version 2.X.
-- **Grafana 8.0+** is required for version 1.X.
+- **Grafana 8.5+, Grafana 9.0+** is required for major version 2.
+- **Grafana 8.0+** is required for major version 1.
 
 ## Getting Started
 
