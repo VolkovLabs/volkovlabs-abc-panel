@@ -6,6 +6,7 @@
 
 - Update package.json and workflows (#31, #32, #34)
 - Update requirements in README (#33)
+- Migrate to Plugin Tools 1.5.2 (#35)
 
 ## 2.4.0 (2023-05-27)
 
