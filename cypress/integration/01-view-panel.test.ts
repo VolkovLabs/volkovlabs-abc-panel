@@ -29,13 +29,13 @@ describe('Viewing an Abc panel', () => {
     /**
      * Root
      */
-    const chart = currentPanel.find(getTestIdSelector(TestIds.panel.root));
-    chart.should('be.visible');
+    const root = currentPanel.find(getTestIdSelector(TestIds.panel.root));
+    root.should('be.visible');
 
     /**
      * Screenshot
      */
-    chart.screenshot(testedPanel.title);
+    root.screenshot(testedPanel.title);
     e2e().compareScreenshots({ name: testedPanel.title, threshold: 0.05 });
   });
 });
