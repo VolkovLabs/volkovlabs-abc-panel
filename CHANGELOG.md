@@ -1,12 +1,13 @@
 # Change Log
 
-## 2.5.0 (IN PROGRESS)
+## 2.5.0 (2023-06-18)
 
 ### Features / Enhancements
 
 - Update package.json and workflows (#31, #32, #34)
 - Update requirements in README (#33)
 - Migrate to Plugin Tools 1.5.2 (#35)
+- Update to Grafana 10.0.0 (#36)
 
 ## 2.4.0 (2023-05-27)
 
