@@ -1,5 +1,16 @@
 # Change Log
 
+## 3.0.0 (2023-06-25)
+
+### Breaking changes
+
+- Requires Grafana 9 and Grafana 10
+
+### Features / Enhancements
+
+- Add docker compose for minimum Grafana version (#37)
+- Remove Grafana 8.5 support (#37)
+
 ## 2.5.0 (2023-06-18)
 
 ### Features / Enhancements
