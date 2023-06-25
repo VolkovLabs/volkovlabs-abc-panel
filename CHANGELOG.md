@@ -8,7 +8,7 @@
 
 ### Features / Enhancements
 
-- Update E2E Cypress testing (#37)
+- Add docker compose for minimum Grafana version (#37)
 - Remove Grafana 8.5 support (#37)
 
 ## 2.5.0 (2023-06-18)
