@@ -34,7 +34,7 @@ jobs:
         run: npm run e2e
 
       - name: Stop Grafana
-        run: docker-compose -f docker-compose-min.yml down
+        run: docker-compose down
 
       - uses: actions/upload-artifact@v3
         if: failure()
