@@ -57,9 +57,17 @@ npm run start
 - Includes GitHub Actions for CI, E2E and Release.
 - Includes Static Data Source to emulate any data.
 
+## Tutorial
+
+Follow along and have your first-panel plugin built and provisioned. We created this three part series as an easy-to-follow tutorial.
+
+[![Build a panel plugin, part 1 | Grafana Crash Course for Developers](https://raw.githubusercontent.com/volkovlabs/volkovlabs-abc-panel/main/img/part1.png)](https://youtu.be/KnaPBKoXuEw)
+
+
 ## Support
 
-We provide GitHub Discussions and Premium tier support for the development plugins available via [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
+- Subscribe to our [YouTube Channel](https://www.youtube.com/@volkovlabs) and add a comment.
+- Premium support for the development plugins is available via [GitHub Sponsor](https://github.com/sponsors/VolkovLabs).
 
 ## License
 
