@@ -59,7 +59,7 @@ npm run start
 
 ## Tutorial
 
-Follow along and have your first-panel plugin built and provisioned. We created this video as an easy-to-follow tutorial.
+Follow along and have your first-panel plugin built and provisioned. We created this three part series as an easy-to-follow tutorial.
 
 [![Build a panel plugin, part 1 | Grafana Crash Course for Developers](https://raw.githubusercontent.com/volkovlabs/volkovlabs-abc-panel/main/img/part1.png)](https://youtu.be/KnaPBKoXuEw)
 
