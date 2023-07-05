@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.1.0 (IN PROGRESS)
+
+### Features / Enhancements
+
+- Add YouTube tutorial (#39)
+- Update ESLint configuration (#40)
+
 ## 3.0.0 (2023-06-25)
 
 ### Breaking changes
