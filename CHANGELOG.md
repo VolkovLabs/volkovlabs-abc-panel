@@ -5,7 +5,7 @@
 ### Features / Enhancements
 
 - Add YouTube tutorial (#39)
-- Update ESLint configuration (#40)
+- Update ESLint configuration (#40, #41)
 
 ## 3.0.0 (2023-06-25)
 
