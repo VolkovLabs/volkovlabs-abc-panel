@@ -8,13 +8,12 @@
 import CopyWebpackPlugin from 'copy-webpack-plugin';
 import ESLintPlugin from 'eslint-webpack-plugin';
 import ForkTsCheckerWebpackPlugin from 'fork-ts-checker-webpack-plugin';
-import LiveReloadPlugin from 'webpack-livereload-plugin';
 import path from 'path';
 import ReplaceInFileWebpackPlugin from 'replace-in-file-webpack-plugin';
 import { Configuration } from 'webpack';
-
-import { getPackageJson, getPluginJson, hasReadme, getEntries, isWSL } from './utils';
-import { SOURCE_DIR, DIST_DIR } from './constants';
+import LiveReloadPlugin from 'webpack-livereload-plugin';
+import { DIST_DIR, SOURCE_DIR } from './constants';
+import { getEntries, getPackageJson, getPluginJson, hasReadme, isWSL } from './utils';
 
 const pluginJson = getPluginJson();
 
@@ -82,7 +81,7 @@ const config = async (env): Promise<Configuration> => {
             loader: 'swc-loader',
             options: {
               jsc: {
-                baseUrl: './src',
+                baseUrl: path.resolve(__dirname, 'src'),
                 target: 'es2015',
                 loose: false,
                 parser: {
@@ -97,7 +96,7 @@ const config = async (env): Promise<Configuration> => {
         },
         {
           test: /\.css$/,
-          use: ["style-loader", "css-loader"]
+          use: ['style-loader', 'css-loader'],
         },
         {
           test: /\.s[ac]ss$/,
@@ -207,7 +206,6 @@ const config = async (env): Promise<Configuration> => {
   }
 
   return baseConfig;
-
 };
 
 export default config;
