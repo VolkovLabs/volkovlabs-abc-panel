@@ -21,5 +21,3 @@ Object.defineProperty(global, 'matchMedia', {
     dispatchEvent: jest.fn(),
   })),
 });
-
-HTMLCanvasElement.prototype.getContext = () => {};
