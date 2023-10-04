@@ -1,13 +1,14 @@
 # Change Log
 
-## 3.1.0 (2023-10-03)
+## 3.1.0 (2023-10-04)
 
 ### Features / Enhancements
 
 - Add YouTube tutorial (#39)
 - Update ESLint configuration (#40, #41)
-- Update to Grafana 10.1.4 (#42)
-- Update to Plugin Tools 2.0.1 (#42)
+- Update to Grafana 10.1.4 (#43)
+- Update to Plugin Tools 2.0.2 (#43)
+- Use Grafana Access Policy to sign plugin (#44)
 
 ## 3.0.0 (2023-06-25)
 
