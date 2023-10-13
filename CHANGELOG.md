@@ -1,5 +1,12 @@
 # Change Log
 
+## 3.2.0 (IN PROGRESS)
+
+### Features / Enhancements
+
+- Update to Grafana 10.1.5 (#46)
+- Update to Plugin Tools 2.1.1 (#46)
+
 ## 3.1.0 (2023-10-04)
 
 ### Features / Enhancements
